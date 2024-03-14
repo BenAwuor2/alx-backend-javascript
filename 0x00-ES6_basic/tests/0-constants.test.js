@@ -1,4 +1,4 @@
-import {taskFirst, getLast, taskNext} from './0-constants';
+import {taskFirst, getLast, taskNext} from '../0-constants';
 test('return a string', () => {
     expect(taskFirst()).toBe("I prefer const when I can.");
     expect( getLast()).toBe(" is okay");
